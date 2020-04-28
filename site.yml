@@ -1,0 +1,14 @@
+---
+- hosts: localhost
+  gather_facts: no
+  vars_prompt:
+   - name: "name"
+     prompt: "Enter name of VM"
+     private: no
+  roles:
+   - deployvm
+
+# - hosts: webservers
+#   roles:
+#    - apache
+
