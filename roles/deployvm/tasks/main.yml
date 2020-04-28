@@ -54,4 +54,4 @@
  - name: "Add Provioned VM to temp Host Group"
    add_host:
     name: "{{ server_ip }}"
-    groups: webservers
+    groups: deployed_vms
