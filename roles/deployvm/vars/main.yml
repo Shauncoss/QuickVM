@@ -8,6 +8,7 @@ cluster: Compute
 template: ubuntu-template
 portgroup: "Overlay1"
 folder: /
+name: testvm1
 osusr: tatoe
 ospwd: Ashes1109
 server_ip: 10.1.1.10
