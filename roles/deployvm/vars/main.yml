@@ -2,15 +2,15 @@
 # defaults file for /etc/ansible/roles/DeployVM
 vcenter: vc.cosslab.io
 username: administrator@vsphere.local
-password: Ashes1109!
+#password:
 datacenter: CossLab
 cluster: Compute
 template: ubuntu-template
 portgroup: "Overlay1"
 folder: /
 name: testvm1
-osusr: tatoe
-ospwd: Ashes1109
+#osusr:
+#ospwd: 
 server_ip: 10.1.1.10
 netmask: 255.255.255.0
 gateway: 10.1.1.1
